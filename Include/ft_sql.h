@@ -6,7 +6,7 @@
 /*   By: piquerue <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/05/31 15:55:47 by piquerue          #+#    #+#             */
-/*   Updated: 2018/05/31 15:59:29 by piquerue         ###   ########.fr       */
+/*   Updated: 2018/05/31 16:01:05 by piquerue         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,8 +17,8 @@
 # include <mysql.h>
 
 MYSQL				*ft_sql_connect(char *host, char *name, char *passwd);
-char				*ft_sql_get_version(void)
-void				ft_sql_version(void)
+char				*ft_sql_get_version(void);
+void				ft_sql_version(void);
 
 
 #endif

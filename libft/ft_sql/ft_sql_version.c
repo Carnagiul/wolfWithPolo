@@ -6,7 +6,7 @@
 /*   By: piquerue <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/05/31 15:57:04 by piquerue          #+#    #+#             */
-/*   Updated: 2018/05/31 15:58:48 by piquerue         ###   ########.fr       */
+/*   Updated: 2018/05/31 16:01:45 by piquerue         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,5 +19,5 @@ void				ft_sql_version(void)
 
 char				*ft_sql_get_version(void)
 {
-	return (mysql_get_client_info());
+	return (ft_strdup(mysql_get_client_info()));
 }
